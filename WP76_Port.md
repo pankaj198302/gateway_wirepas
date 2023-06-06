@@ -15,3 +15,7 @@ DISTRO_FEATURES="argp ext2 irda largefile usbgadget usbhost wifi xattr nfs 3g nf
 
 
 
+# Recipe for Wirepas Gateway
+https://lists.yoctoproject.org/g/yocto/topic/77075794
+
+
