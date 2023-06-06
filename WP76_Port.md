@@ -5,7 +5,8 @@ DISTRO_FEATURES_append = " systemd"
 
 DISTRO_FEATURES_BACKFILL_CONSIDERED += "sysvinit"
 
-Generate the .cwe file and flash it to the device.
+Generate the .cwe file and flash it to the device. Check the systemd available in the image with bitbake -e mdm9x28-image-minimal | grep ^DISTRO_FEATURES=
+
 
 
 
